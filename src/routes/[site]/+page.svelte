@@ -3,7 +3,7 @@
     PrimoPage,
     realtime_subscribe,
     locked_blocks,
-  } from '@primocms/builder'
+  } from 'primo-builder'
   import { browser } from '$app/environment'
   import { invalidate } from '$app/navigation'
   import { createUniqueID } from '$lib/utils'

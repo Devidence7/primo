@@ -4,9 +4,9 @@
 	import TextField from '$lib/ui/TextField.svelte'
 	import PrimaryButton from '$lib/ui/PrimaryButton.svelte'
 	import { validate_url } from '$lib/utils'
-	import { validate_site_structure_v2 } from '@primocms/builder'
+	import { validate_site_structure_v2 } from 'primo-builder'
 	import Icon from '@iconify/svelte'
-	import { buildStaticPage } from '@primocms/builder'
+	import { buildStaticPage } from 'primo-builder'
 	import Themes from '../Themes.svelte'
 
 	export let onSuccess = (newSite, preview) => {}
